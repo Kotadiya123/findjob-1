@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Browse Jobs | Fresher Jobs</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- CSS
+	================================================== -->
+	<link rel="shortcut icon" type="image/png" href="assets/resources/assets/img/favicon.png">
+	<link rel="stylesheet" href="assets/resources/assets/plugins/css/plugins.css">
+	<!-- Custom style -->
+	<link href="assets/resources/assets/css/style.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" id="jssDefault" href="assets/resources/assets/css/colors/green-style.css">
+	<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.brows-job-list {
+			width: 80%;
+		}
+
+		.brows-job-position .job-type {
+			display: inline-block;
+			padding: 3px 8px;
+			margin-left: -1px;
+		}
+
+		@media only screen and (max-width: 600px) {
+			.brows-job-list {
+				flex-wrap: nowrap;
+				width: 100%;
+				clear: both;
+				padding: 0px;
+				transition: .4s;
+				margin-top: 25px;
+				background: #fff;
+				border-radius: 6px;
+				box-shadow: 0 0 10px 0 rgb(88 96 109 / 14%);
+				-webkit-box-shadow: 0 0 10px 0 rgb(88 96 109 / 14%);
+				-moz-box-shadow: 0 0 10px 0 rgba(88, 96, 109, 0.14);
+				text-align: left;
+				padding-bottom: 10px;
+			}
+
+			.brows-job-list {
+				display: table;
+			}
+
+			.item-fl-box {
+				width: 100%;
+				display: flex;
+				align-items: left;
+			}
+
+			.item-fl-box .brows-job-company-img {
+				margin: 0;
+				margin-right: 15px;
+				display: table;
+			}
+
+			.brows-job-company-img {
+				width: 46px;
+				margin: 0 auto;
+				margin: 10px auto;
+				height: 46px;
+				display: inline-block;
+				background: #f4f5f7;
+				vertical-align: middle;
+				border-radius: 50%;
+				line-height: 5px;
+			}
+
+			.brows-job-sallery {
+				font-size: 12px;
+			}
+
+			/*.extra-mrg{
+                    display:none;
+                }*/
+
+			.company_name {
+				font-size: 12px;
+			}
+
+			.brows-job-position .job-type {
+				padding: 3px 6px;
+				color: #fff;
+				margin-left: 1px;
+				border-radius: 2px;
+				text-transform: capitalize;
+				font-size: 9px;
+			}
+
+			.brows-job-position p span {
+				margin-top: 3px;
+			}
+
+			.item-click article {
+				padding-left: 0px;
+				padding-right: 0px;
+			}
+
+		}
+
+		.drboWK {
+			font-size: 1.5rem;
+			text-align: center;
+			outline: none;
+			cursor: pointer;
+			transition-duration: 200ms;
+			transition-property: all;
+			display: inline-flex;
+			-webkit-box-align: center;
+			align-items: center;
+			-webkit-box-pack: center;
+			justify-content: center;
+			color: rgb(255, 255, 255);
+			font-family: "Fira Sans", sans-serif;
+			background: #0A1E4A;
+			border: 1px solid #0A1E4A;
+			width: auto;
+			padding: 0px 8px;
+			border-radius: 5px;
+			height: 32px;
+			font-weight: 500;
+
+		}
+
+		.fAakEW {
+			display: flex;
+			-webkit-box-align: center;
+			align-items: center;
+			overflow: hidden;
+		}
+
+		.fJbVbc {
+			color: rgb(106, 106, 106);
+			text-decoration: none;
+			min-width: fit-content;
+			font-size: 12px;
+			font-weight: 400;
+		}
+
+		a {
+			background-color: transparent;
+		}
+
+		* {
+			-webkit-tap-highlight-color: transparent;
+		}
+	</style>
+	<style>
+		.pagination {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 20px;
+			padding: 10px;
+			border-radius: 5px;
+		}
+
+		.pagination button {
+			margin: 0 5px;
+			padding: 8px 16px;
+			border: 1px solid #0a1e4a;
+			border-radius: 4px;
+			background-color: #fff;
+			color: #0a1e4a;
+			font-weight: bold;
+			cursor: pointer;
+			transition: background-color 0.3s, color 0.3s;
+		}
+
+		.pagination button.active {
+			background-color: #0a1e4a;
+			color: white;
+		}
+
+		.pagination button:hover:not(:disabled) {
+			background-color: #0a1e4a;
+			color: white;
+		}
+
+		.pagination button:disabled {
+			background-color: #e9ecef;
+			color: #6c757d;
+			cursor: not-allowed;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="Loader"></div>
+	<div class="wrapper">
+		<!-- Start Navigation -->
+		<style>
+			.bootstrap-tagsinput {
+				width: 100%;
+				line-height: 36px;
+			}
+
+			.xqq {
+				display: none;
+			}
+
+			ul.ui-autocomplete {
+				color: #000000 !important;
+				-moz-border-radius: 0px;
+				border-radius: 0px;
+			}
+
+			.ui-autocomplete {
+				list-style: none outside none;
+				border: 1px solid #123456;
+				cursor: pointer;
+				padding: 5px;
+				margin: 0px;
+				z-index: 10000 !important;
+			}
+
+			@media only screen and (max-width: 600px) {
+
+				.nav-tabs.modern-tabs>li>a:hover,
+				.nav-tabs.modern-tabs>li>a {
+					border: none !important;
+					margin: 0 5px !important;
+					border-radius: 30px;
+					line-height: 1 !important;
+					padding: 1.7rem 2rem;
+				}
+
+				.xqq {
+					display: block;
+				}
+
+				.xqqs {
+					display: none;
+				}
+
+			}
+
+			.b {
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: clip;
+			}
+		</style>
+		<!--start -->
+
+		<!-- Start Navigation -->
+		<nav class="navbar navbar-default navbar-fixed navbar-light white bootsnav">
+			<div class="container">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+					<i class="fa fa-bars"></i>
+				</button>
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html">
+						<img src="assets/resources/assets/img/logo.png" class="logo logo-display" alt="">
+						<img src="assets/resources/assets/img/logo.png" class="logo logo-scrolled" alt="">
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-menu">
+					<ul class="nav navbar-nav navbar-left" data-in="fadeInDown" data-out="fadeOutUp">
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Search Jobs</a>
+							<ul class="dropdown-menu animated fadeOutUp">
+								<li class="dropdown">
+									<a
+										href="browse-jobs.html?url=https://api.npoint.io/1a90a1ac84177b731792&title=All Jobs">All
+										Jobs</a>
+
+								</li>
+								<li class="dropdown">
+									<a href="browse-jobs.html?url=https://api.npoint.io/40821667bb44ad0a4f26&title=Jobs 
+											For You">Jobs
+										For You</a>
+								</li>
+								<li class="dropdown">
+									<a href="browse-jobs.html?url=https://api.npoint.io/7121c3734dc5666ded3d&title=Jobs 
+											For Freshers">Jobs
+										For Freshers</a>
+								</li>
+								<li class="dropdown">
+									<a href="browse-jobs.html?url=https://api.npoint.io/0f8c4551a83c29b15c89&title=Jobs 
+											For Work From Home">Jobs
+										For Work From Home</a>
+								</li>
+								<li class="dropdown">
+									<a href="browse-jobs.html?url=https://api.npoint.io/556c526e3ed99c952bbb&title=Jobs 
+											For Women">Jobs
+										For Women</a>
+								</li>
+								<li class="dropdown">
+									<a href="browse-jobs.html?url=https://api.npoint.io/82f25a5964faee219dc0&title=Jobs  
+											For College Students">Jobs
+										For College Students</a>
+								</li>
+								<li class="dropdown">
+									<a href="browse-jobs.html?url=https://api.npoint.io/2795ee844ccbb53ba96e&title=Part 
+											Time Jobs">Part
+										Time Jobs</a>
+								</li>
+								<li class="dropdown">
+									<a href="browse-jobs.html?url=https://api.npoint.io/2b8c75290547b25010db&title=IT 
+											Jobs">IT
+										Jobs</a>
+								</li>
+								<li class="dropdown">
+									<a
+										href="browse-jobs.html?url=https://api.npoint.io/70f7afa75487cc44fc70&title=Engineering Jobs">Engineering
+										Jobs</a>
+								</li>
+								<li class="dropdown">
+									<a href="browse-jobs.html?url=https://api.npoint.io/aa8819b29ca0eff8e074&title=Walk-in 
+											Jobs">Walk-in
+										Jobs</a>
+								</li>
+								<li class="dropdown">
+									<a href="browse-jobs.html?url=https://api.npoint.io/1258a3b78aa0625ef3db&title=Remote 
+											Jobs">Remote
+										Jobs</a>
+								</li>
+							</ul>
+						<li>
+							<a href="browse-jobs.html?url=https://api.npoint.io/0f8c4551a83c29b15c89&title=Work 
+									From Home">Work
+								From Home</a>
+						</li>
+						<li>
+							<a href="browse-jobs.html?url=https://api.npoint.io/7121c3734dc5666ded3d&title=FRESHER JOB">FRESHER
+								JOB</a>
+						</li>
+						<li>
+							<a href="privacy-policy.html">Privacy Policy</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+						<li class="left-br"><a href="contact-us.html" class="signin">Contact US</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- End Navigation -->
+
+		<!-- Title Header Start -->
+		<section class="inner-header-title" style="background-image:url(assets/resources/assets/img/banner-10.jpg);">
+			<div class="container">
+				<h1 id="jobTitle">Browse Jobs</h1>
+			</div>
+		</section>
+		<!-- ========== Begin: Brows job ===============  -->
+		<section>
+			<!-- Title Header End -->
+			<div class="container" id="job-listings">
+				<!-- Job listings will be inserted here -->
+			</div>
+			<div class="pagination"></div>
+			<div id="ads">
+		
+			</div>
+			<script>
+				const jobsPerPage = 10;
+
+				// Function to create job listing HTML
+				function createJobListing(job, index) {
+					let jobHTML = `
+								<a href="job-application.html">
+								  <div class="item-click">
+									<article>
+									  <div class="brows-job-list">
+										<div class="col-md-12 col-sm-12">
+										  <div class="item-fl-box">
+											<div class="brows-job-company-img">
+											  <a href="job-application.html">
+												<img src="assets/resources/assets/img/emp-2.jpg" class="img-responsive" alt="">
+											  </a>
+											</div>
+											<div class="brows-job-position">
+											  <h3>
+												<a>${job.title}</a>
+												<span class="brows-job-sallery">
+												  ${job.salary.currency} ${job.salary.min} -
+												  ${job.salary.currency} ${job.salary.max}
+												</span>
+											  </h3>
+											  <p>
+												${job.job_type.map(type => `
+												  <span class="job-type bg-trans-info cl-info">
+													<i class="fa fa-info-circle"></i> ${type}
+												  </span>
+												`).join('')}
+												<br>
+												
+												<span class="job-type">
+												  <a  class="drboWK" data-index="${index}">Apply Now</a>
+												</span>
+											  </p>
+											</div>
+										  </div>
+										</div>
+									  </div>
+									</article>
+								  </div>
+								</a>
+							  `;
+					if ((index + 1) % 3 === 0) {
+						const ads = document.getElementById('ads');
+						jobHTML += `${ads.innerHTML} `;
+					}
+					return jobHTML;
+				}
+
+				function renderJobListings(data, page) {
+					const start = (page - 1) * jobsPerPage;
+					const end = start + jobsPerPage;
+					const jobsToShow = data.slice(start, end);
+
+					const jobListingsContainer = document.getElementById('job-listings');
+					jobListingsContainer.innerHTML = jobsToShow.map(createJobListing).join('');
+
+					// Attach event listeners to "Apply Now" links
+					const applyLinks = document.querySelectorAll('.drboWK');
+					applyLinks.forEach(link => {
+						link.addEventListener('click', function (event) {
+							event.preventDefault();
+							const index = this.getAttribute('data-index');
+							storeJobDataInLocalStorage(data[index]);
+							window.location.href = 'job-detail.html'; // Redirect after storing data
+
+						});
+					});
+				}
+
+				function storeJobDataInLocalStorage(job) {
+					// Convert job object to a JSON string and store it in localStorage
+					const jobDataString = JSON.stringify(job);
+					localStorage.setItem('selectedJob', jobDataString);
+				}
+
+				function createPaginationControls(totalJobs, currentPage) {
+					const totalPages = Math.ceil(totalJobs / jobsPerPage);
+					const paginationContainer = document.querySelector('.pagination');
+					paginationContainer.innerHTML = '';
+
+					// Previous button
+					const prevButton = document.createElement('button');
+					prevButton.textContent = '<';
+					prevButton.disabled = currentPage === 1;
+					prevButton.onclick = () => {
+						renderJobListings(jobs, currentPage - 1);
+						createPaginationControls(totalJobs, currentPage - 1);
+					};
+					paginationContainer.appendChild(prevButton);
+
+					// Page number buttons
+					const startPage = Math.max(1, currentPage - 1);
+					const endPage = Math.min(totalPages, currentPage + 1);
+
+					for (let i = startPage; i <= endPage; i++) {
+						const pageLink = document.createElement('button');
+						pageLink.textContent = i;
+						pageLink.classList.add('page-link');
+						pageLink.onclick = () => {
+							renderJobListings(jobs, i);
+							createPaginationControls(totalJobs, i);
+						};
+						if (i === currentPage) {
+							pageLink.classList.add('active');
+						}
+						paginationContainer.appendChild(pageLink);
+					}
+
+					// Next button
+					const nextButton = document.createElement('button');
+					nextButton.textContent = '>';
+					nextButton.disabled = currentPage === totalPages;
+					nextButton.onclick = () => {
+						renderJobListings(jobs, currentPage + 1);
+						createPaginationControls(totalJobs, currentPage + 1);
+					};
+					paginationContainer.appendChild(nextButton);
+				}
+
+				let jobs = [];
+
+				// Fetch data from the provided URL and update the page
+				const urlParams = new URLSearchParams(window.location.search);
+				const passedUrl = urlParams.get('url');
+				const passedTitle = urlParams.get('title');
+				const jobTitleElement = document.getElementById('jobTitle');
+				jobTitleElement.textContent = passedTitle;
+
+				console.log('Passed URL:', passedUrl);
+				console.log('Passed Title:', passedTitle);
+
+				fetch(passedUrl)
+					.then(response => response.json())
+					.then(data => {
+						jobs = data;
+						renderJobListings(jobs, 1);
+						createPaginationControls(jobs.length, 1);
+					})
+					.catch(error => console.error('Error fetching data:', error));
+
+			</script>
+		</section>
+		<!-- ============================ Call To Action ================================== -->
+		<section class="theme-bg call-to-act-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="call-to-act">
+							<div class="call-to-act-head">
+								<h3>Want to Become a Success Employers?</h3>
+								<span>We'll help you to grow your career and growth.</span>
+							</div>
+							<a href="job-application.html" class="btn btn-call-to-act">Apply Today</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ============================ Call To Action End ================================== -->
+		<script type="text/javascript" src="assets/resources/assets/plugins/js/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/resources/assets/plugins/js/viewportchecker.js"></script>
+		<script type="text/javascript" src="assets/resources/assets/plugins/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/resources/assets/plugins/js/bootsnav.js"></script>
+		<script type="text/javascript" src="assets/resources/assets/plugins/js/select2.min.js"></script>
+		<script type="text/javascript" src="assets/resources/assets/plugins/js/loader.js"></script>
+		<script type="text/javascript" src="assets/resources/assets/plugins/js/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="assets/resources/assets/plugins/js/slick.min.js"></script>
+		<script type="text/javascript" src="assets/resources/assets/plugins/js/gmap3.min.js"></script>
+
+	</div>
+</body>
+
+</html>

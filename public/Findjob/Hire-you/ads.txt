@@ -1,0 +1,1 @@
+datawrkz.com,:REPLACE_SELLER_JSON_ID, DIRECT,google.com, pub-8856559311549217, RESELLER, f08c47fec0942fa0,Media.net Media.net, 8CU8BGW55, DIRECT,Onetag onetag.com, 7762f41ee0fb798-OB, DIRECT,Magnite rubiconproject.com, 23834, DIRECT, 0bfd66d529a55807,Pubmatic pubmatic.com, 162817, RESELLER, 5d62403b186f2ace,Smart Adserver smartadserver.com, 4340-OB, RESELLER

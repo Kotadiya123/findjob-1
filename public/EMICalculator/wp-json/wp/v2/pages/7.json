@@ -1,0 +1,231 @@
+{
+  "id": 7,
+  "date": "2011-06-17T03:58:41",
+  "date_gmt": "2011-06-16T22:28:41",
+  "guid": { "rendered": "https://emicalculator.net/?page_id=7" },
+  "modified": "2022-09-21T17:50:40",
+  "modified_gmt": "2022-09-21T12:20:40",
+  "slug": "emi-calculator-home-loan-car-loan-personal-loan-india",
+  "status": "publish",
+  "type": "page",
+  "link": "https://emicalculator.net/",
+  "title": {
+    "rendered": "EMI Calculator for Home Loan, Car Loan &#038; Personal Loan in India"
+  },
+  "content": {
+    "rendered": "<div id=\"pl-7\"  class=\"panel-layout\" ><div id=\"pg-7-0\"  class=\"panel-grid panel-no-style\" ><div id=\"pgc-7-0-0\"  class=\"panel-grid-cell\" ><div id=\"panel-7-0-0-0\" class=\"so-panel widget widget_sow-editor panel-first-child panel-last-child\" data-index=\"0\" ><div\n\t\t\t\n\t\t\tclass=\"so-widget-sow-editor so-widget-sow-editor-base\"\n\t\t\t\n\t\t>\n<div class=\"siteorigin-widget-tinymce textwidget\">\n\t<h2>What is EMI?</h2>\n<p>Equated Monthly Installment - EMI for short - is the amount payable every month to the bank or any other financial institution until the loan amount is fully paid off. It consists of the interest on loan as well as part of the principal amount to be repaid. The sum of principal amount and interest is divided by the tenure, i.e., number of months, in which the loan has to be repaid. This amount has to be paid monthly. The interest component of the EMI would be larger during the initial months and gradually reduce with each payment. The exact percentage allocated towards payment of the principal depends on the interest rate. Even though your monthly EMI payment won't change, the proportion of principal and interest components will change with time.\u00a0With each successive payment, you'll pay more towards the principal and less in interest.</p>\n<p id=\"internal-source-marker_0.04359114885107196\">Here's the formula to calculate EMI:</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-4031 alignleft\" src=\"https://emicalculator.net/wp-content/uploads/emiformula.png\" alt=\"EMI Formula\" width=\"320\" height=\"75\" srcset=\"https://emicalculator.net/wp-content/uploads/emiformula.png 320w, https://emicalculator.net/wp-content/uploads/emiformula-300x70.png 300w\" sizes=\"(max-width: 320px) 100vw, 320px\" /></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>where</p>\n<p><strong>E</strong> is EMI</p>\n<p><strong>P</strong> is Principal Loan Amount</p>\n<p><strong>r</strong> is rate of interest calculated on monthly basis. (i.e., r = Rate of Annual interest/12/100. If rate of interest is 10.5% per annum, then r = 10.5/12/100=0.00875)</p>\n<p><strong>n</strong> is loan term / tenure / duration in number of months</p>\n<blockquote>\n<p>For example, if you borrow \u20b910,00,000 from the bank at 10.5% annual interest for a period of 10 years (i.e., 120 months), then EMI = \u20b910,00,000 *\u00a00.00875 * (1 + 0.00875)<sup>120</sup> / ((1 + 0.00875)<sup>120</sup> - 1) = \u20b913,493. i.e., you will have to pay \u20b913,493 for 120 months to repay the entire loan amount. The total amount payable will be \u20b913,493 * 120 = \u20b916,19,220 that includes \u20b96,19,220 as interest toward the loan.</p>\n</blockquote>\n<p>Computing EMI for different combinations of principal loan amount, interest rates and loan term using the above <a title=\"EMI Formula\" href=\"https://emicalculator.net/loan-emi-calculation-work/\" target=\"_blank\" rel=\"noopener noreferrer\">EMI formula</a> by hand or MS Excel is time consuming, complex and error prone. Our EMI calculator automates this calculation for you and gives you the result in a split second along with visual charts displaying payment schedule and the break-up of total payment.</p>\n<h2 id=\"internal-source-marker_0.6092460654906617\">How to Use EMI Calculator?</h2>\n<p style=\"text-align: left;\">With colourful charts and instant results, our EMI Calculator is easy to use, intuitive to understand and is quick to perform. You can calculate EMI for home loan, car loan, personal loan, education loan or any other fully amortizing loan using this calculator.</p>\n<p>Enter the following information in the EMI Calculator:</p>\n<ul>\n<li>Principal loan amount you wish to avail (rupees)</li>\n<li>Loan term (months or years)</li>\n<li>Rate of interest (percentage)</li>\n<li><a href=\"https://emicalculator.net/emi-in-advance-vs-emi-in-arrears/\"><strong>EMI in arrears OR EMI in</strong> advance</a> (for car loan only)</li>\n</ul>\n<p>Use the slider to adjust the values in the EMI calculator form. If you need to enter more precise values, you can type the values directly in the relevant boxes provided above. As soon as the values are changed using the slider (or hit the 'tab' key after entering the values directly in the input fields), EMI calculator will re-calculate your monthly payment (EMI) amount.</p>\n<p>A pie chart depicting the break-up of total payment (i.e., total principal vs. total interest payable) is also displayed. It displays the percentage of total interest versus principal amount in the sum total of all payments made against the loan. The payment schedule table showing payments made every month / year\u00a0for the entire loan duration is displayed along with a chart showing interest and principal components paid each year. A portion of each payment is for the interest while the remaining amount is applied towards the principal balance. During initial loan period, a large portion of each payment is devoted to interest. With passage of time, larger portions pay down the principal. The payment schedule also shows the intermediate outstanding balance for each year which will be carried over to the next year.</p>\n<p>Want to make part prepayments to shorten your home loan schedule and reduce your total interest outgo? Use our <a href=\"https://emicalculator.net/home-loan-emi-calculator/\">Home Loan EMI Calculator with Prepayments</a>. If you wish to\u00a0 calculate how much loan you can afford OR determine advertised vs actual loan interest rate (along with loan APR) on a purchase, use our <a href=\"https://emicalculator.net/loan-calculator/\">loan calculator</a>.</p>\n<h2>Floating Rate EMI Calculation</h2>\n<p>We suggest that you calculate floating / variable rate EMI by taking into consideration two opposite scenarios, i.e., optimistic (deflationary) and pessimistic (inflationary) scenario. Loan amount and loan tenure, two components required to calculate the EMI are under your control; i.e., you are going to decide how much loan you have to borrow and how long your loan tenure should be. But interest rate is decided by the banks &amp; HFCs based on rates and policies set by <a title=\"Reserve Bank of India\" href=\"http://www.rbi.org.in/\" target=\"_blank\" rel=\"noopener noreferrer\">RBI</a>. As a borrower, you should consider the two extreme possibilities of increase and decrease in the rate of interest and calculate your EMI under these two conditions. Such calculation will help you decide how much EMI is affordable, how long your loan tenure should be and how much you should borrow.</p>\n<p><strong>Optimistic (deflationary) scenario</strong>: Assume that the rate of interest comes down by 1% - 3% from the present rate. Consider this situation and calculate your EMI. In this situation, your EMI will come down or you may opt to shorten the loan tenure. Ex: If you avail home loan to purchase a house as an investment, then optimistic scenario enables you to compare this with other investment opportunities.</p>\n<p><strong>Pessimistic (inflationary) scenario</strong>: In the same way, assume that the rate of interest is hiked by 1% - 3%. Is it possible for you to continue to pay the EMI without much struggle? Even a 2% increase in rate of interest can result in significant rise in your monthly payment for the entire loan tenure.</p>\n<p>Such calculation helps you to plan for such future possibilities. When you take a loan, you are making a financial commitment for next few months, years or decades. So consider the best as well as worst cases...and be ready for both. In short, hope for the best but be prepared for the worst!</p>\n</div>\n</div></div></div></div><div id=\"pg-7-1\"  class=\"panel-grid panel-no-style\" ><div id=\"pgc-7-1-0\"  class=\"panel-grid-cell\" ><div id=\"panel-7-1-0-0\" class=\"so-panel widget widget_sow-features panel-first-child panel-last-child\" data-index=\"1\" ><div class=\"panel-widget-style panel-widget-style-for-7-1-0-0\" ><div\n\t\t\t\n\t\t\tclass=\"so-widget-sow-features so-widget-sow-features-default-ef6168036c52-7\"\n\t\t\t\n\t\t>\n<div class=\"sow-features-list sow-features-responsive\">\n\n\t\t\t\t\t\t\t\t\t<div\n\t\t\t\tclass=\"sow-features-feature sow-icon-container-position-top\"\n\t\t\t\tstyle=\"display: flex; flex-direction: column; width: calc(100% - 25px);\"\n\t\t\t>\n\t\t\t\n\t\t\t\t\t\t\t\t\t<a\n\t\t\t\t\t\thref=\"https://emicalculator.net/home-loan-emi-calculator/\"\n\t\t\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t<div\n\t\t\t\t\tclass=\"sow-icon-container sow-container-round\"\n\t\t\t\t\tstyle=\"color: #0072aa; \"\n\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t<span class=\"sow-icon-fontawesome sow-fas\" data-sow-icon=\"&#xf1ec;\"\n\t\tstyle=\"font-size: 26px; color: #FFFFFF\" \n\t\taria-hidden=\"true\"></span>\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\n\t\t\t\t<div class=\"textwidget\">\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<h5>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a\n\t\t\t\t\t\t\t\t\thref=\"https://emicalculator.net/home-loan-emi-calculator/\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tHome Loan EMI Calculator\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<p>Home Loan EMI Calculator with Prepayments, Taxes &amp; Insurance</p>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\n\t\t\t\n</div>\n</div></div></div></div><div id=\"pgc-7-1-1\"  class=\"panel-grid-cell\" ><div id=\"panel-7-1-1-0\" class=\"so-panel widget widget_sow-features panel-first-child panel-last-child\" data-index=\"2\" ><div class=\"panel-widget-style panel-widget-style-for-7-1-1-0\" ><div\n\t\t\t\n\t\t\tclass=\"so-widget-sow-features so-widget-sow-features-default-f11dff7d543c-7\"\n\t\t\t\n\t\t>\n<div class=\"sow-features-list sow-features-responsive\">\n\n\t\t\t\t\t\t\t\t\t<div\n\t\t\t\tclass=\"sow-features-feature sow-icon-container-position-top\"\n\t\t\t\tstyle=\"display: flex; flex-direction: column; width: calc(100% - 25px);\"\n\t\t\t>\n\t\t\t\n\t\t\t\t\t\t\t\t\t<a\n\t\t\t\t\t\thref=\"https://play.google.com/store/apps/details?id=net.emicalculator\"\n\t\t\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t<div\n\t\t\t\t\tclass=\"sow-icon-container sow-container-round\"\n\t\t\t\t\tstyle=\"color: #0072aa; \"\n\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t<span class=\"sow-icon-fontawesome sow-fas\" data-sow-icon=\"&#xf17b;\"\n\t\tstyle=\"font-size: 30px; color: #FFFFFF\" \n\t\taria-hidden=\"true\"></span>\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\n\t\t\t\t<div class=\"textwidget\">\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<h5>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a\n\t\t\t\t\t\t\t\t\thref=\"https://play.google.com/store/apps/details?id=net.emicalculator\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tAndroid App\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<p>Download our Free Android App from Google Play Store</p>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\n\t\t\t\n</div>\n</div></div></div></div><div id=\"pgc-7-1-2\"  class=\"panel-grid-cell\" ><div id=\"panel-7-1-2-0\" class=\"so-panel widget widget_sow-features panel-first-child panel-last-child\" data-index=\"3\" ><div class=\"panel-widget-style panel-widget-style-for-7-1-2-0\" ><div\n\t\t\t\n\t\t\tclass=\"so-widget-sow-features so-widget-sow-features-default-ef6168036c52-7\"\n\t\t\t\n\t\t>\n<div class=\"sow-features-list sow-features-responsive\">\n\n\t\t\t\t\t\t\t\t\t<div\n\t\t\t\tclass=\"sow-features-feature sow-icon-container-position-top\"\n\t\t\t\tstyle=\"display: flex; flex-direction: column; width: calc(100% - 25px);\"\n\t\t\t>\n\t\t\t\n\t\t\t\t\t\t\t\t\t<a\n\t\t\t\t\t\thref=\"https://emicalculator.net/loan-calculator/\"\n\t\t\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t<div\n\t\t\t\t\tclass=\"sow-icon-container sow-container-round\"\n\t\t\t\t\tstyle=\"color: #0072aa; \"\n\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t<span class=\"sow-icon-fontawesome sow-fas\" data-sow-icon=\"&#xf1ec;\"\n\t\tstyle=\"font-size: 26px; color: #FFFFFF\" \n\t\taria-hidden=\"true\"></span>\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\n\t\t\t\t<div class=\"textwidget\">\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<h5>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a\n\t\t\t\t\t\t\t\t\thref=\"https://emicalculator.net/loan-calculator/\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tLoan Calculator\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<p>Loan Calculator \u2014 Calculate EMI, Affordability, Tenure &amp; Interest Rate</p>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\n\t\t\t\n</div>\n</div></div></div></div></div></div>",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>What is EMI? Equated Monthly Installment &#8211; EMI for short &#8211; is the amount payable every month to the bank or any other financial institution until the loan amount is fully paid off. It consists of the interest on loan as well as part of the principal amount to be repaid. The sum of principal&hellip; <a class=\"excerpt-more btn btn-primary\" href=\"https://emicalculator.net/\">Continue Reading <i class=\"fas fa-chevron-circle-right\"></i></span></a></p>\n",
+    "protected": false
+  },
+  "author": 2,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "open",
+  "ping_status": "closed",
+  "template": "template-emicalculator.php",
+  "meta": { "jetpack_post_was_ever_published": false, "footnotes": "" },
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v20.1 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>EMI Calculator for Home Loan, Car Loan &amp; Personal Loan in India</title>\n<meta name=\"description\" content=\"EMI Calculator - Calculate Equated Monthly Installment (EMI) for Home Loan / Housing Loan, Car Loan &amp; Personal Loan in India (with interactive charts)\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://emicalculator.net/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"EMI Calculator for Home Loan, Car Loan &amp; Personal Loan in India\" />\n<meta property=\"og:description\" content=\"EMI Calculator - Calculate Equated Monthly Installment (EMI) for Home Loan / Housing Loan, Car Loan &amp; Personal Loan in India (with interactive charts)\" />\n<meta property=\"og:url\" content=\"https://emicalculator.net/\" />\n<meta property=\"og:site_name\" content=\"EMI Calculator\" />\n<meta property=\"article:modified_time\" content=\"2022-09-21T12:20:40+00:00\" />\n<meta property=\"og:image\" content=\"https://emicalculator.net/wp-content/uploads/emiformula.png\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\" />\n\t<meta name=\"twitter:data1\" content=\"5 minutes\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://emicalculator.net/\",\"url\":\"https://emicalculator.net/\",\"name\":\"EMI Calculator for Home Loan, Car Loan & Personal Loan in India\",\"isPartOf\":{\"@id\":\"https://emicalculator.net/#website\"},\"datePublished\":\"2011-06-16T22:28:41+00:00\",\"dateModified\":\"2022-09-21T12:20:40+00:00\",\"description\":\"EMI Calculator - Calculate Equated Monthly Installment (EMI) for Home Loan / Housing Loan, Car Loan & Personal Loan in India (with interactive charts)\",\"breadcrumb\":{\"@id\":\"https://emicalculator.net/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://emicalculator.net/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://emicalculator.net/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://emicalculator.net/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"EMI Calculator for Home Loan, Car Loan &#038; Personal Loan in India\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://emicalculator.net/#website\",\"url\":\"https://emicalculator.net/\",\"name\":\"EMI Calculator\",\"description\":\"Calculate EMI for Home Loan / Housing Loan, Car Loan &amp; Personal Loan in India\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://emicalculator.net/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+    "title": "EMI Calculator for Home Loan, Car Loan & Personal Loan in India",
+    "description": "EMI Calculator - Calculate Equated Monthly Installment (EMI) for Home Loan / Housing Loan, Car Loan & Personal Loan in India (with interactive charts)",
+    "robots": {
+      "index": "index",
+      "follow": "follow",
+      "max-snippet": "max-snippet:-1",
+      "max-image-preview": "max-image-preview:large",
+      "max-video-preview": "max-video-preview:-1"
+    },
+    "canonical": "https://emicalculator.net/",
+    "og_locale": "en_US",
+    "og_type": "article",
+    "og_title": "EMI Calculator for Home Loan, Car Loan & Personal Loan in India",
+    "og_description": "EMI Calculator - Calculate Equated Monthly Installment (EMI) for Home Loan / Housing Loan, Car Loan & Personal Loan in India (with interactive charts)",
+    "og_url": "https://emicalculator.net/",
+    "og_site_name": "EMI Calculator",
+    "article_modified_time": "2022-09-21T12:20:40+00:00",
+    "og_image": [
+      { "url": "https://emicalculator.net/wp-content/uploads/emiformula.png" }
+    ],
+    "twitter_misc": { "Est. reading time": "5 minutes" },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://emicalculator.net/",
+          "url": "https://emicalculator.net/",
+          "name": "EMI Calculator for Home Loan, Car Loan & Personal Loan in India",
+          "isPartOf": { "@id": "https://emicalculator.net/#website" },
+          "datePublished": "2011-06-16T22:28:41+00:00",
+          "dateModified": "2022-09-21T12:20:40+00:00",
+          "description": "EMI Calculator - Calculate Equated Monthly Installment (EMI) for Home Loan / Housing Loan, Car Loan & Personal Loan in India (with interactive charts)",
+          "breadcrumb": { "@id": "https://emicalculator.net/#breadcrumb" },
+          "inLanguage": "en-US",
+          "potentialAction": [
+            { "@type": "ReadAction", "target": ["https://emicalculator.net/"] }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://emicalculator.net/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://emicalculator.net/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "EMI Calculator for Home Loan, Car Loan &#038; Personal Loan in India"
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://emicalculator.net/#website",
+          "url": "https://emicalculator.net/",
+          "name": "EMI Calculator",
+          "description": "Calculate EMI for Home Loan / Housing Loan, Car Loan &amp; Personal Loan in India",
+          "potentialAction": [
+            {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://emicalculator.net/?s={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          ],
+          "inLanguage": "en-US"
+        }
+      ]
+    }
+  },
+  "jetpack_shortlink": "https://wp.me/P8H5CU-7",
+  "jetpack-related-posts": [
+    {
+      "id": 391,
+      "url": "https://emicalculator.net/frequently-asked-questions-faq/",
+      "url_meta": { "origin": 7, "position": 0 },
+      "title": "General FAQ",
+      "date": "September 29, 2011",
+      "format": false,
+      "excerpt": "What is EMI? EMI is an acronym for Equated Monthly Installment. It is the amount payable every month to the bank or any other lender until the loan amount is fully paid off. It consists of the interest on the outstanding balance as well part of the principal amount to\u2026",
+      "rel": "",
+      "context": "Similar post",
+      "img": { "alt_text": "", "src": "", "width": 0, "height": 0 },
+      "classes": []
+    },
+    {
+      "id": 622,
+      "url": "https://emicalculator.net/home-loan-faq/",
+      "url_meta": { "origin": 7, "position": 1 },
+      "title": "Home Loan FAQ",
+      "date": "May 1, 2012",
+      "format": false,
+      "excerpt": "What is home loan? Its a loan taken to purchase a home (may be an under construction property), or to purchase a piece of land, or to renovate/ extend an existing home. How long could my home loan tenure be? Home loan tenure can be up to 30 years. Longer\u2026",
+      "rel": "",
+      "context": "With 18 comments",
+      "img": { "alt_text": "", "src": "", "width": 0, "height": 0 },
+      "classes": []
+    },
+    {
+      "id": 2416,
+      "url": "https://emicalculator.net/loan-calculator/",
+      "url_meta": { "origin": 7, "position": 2 },
+      "title": "Loan Calculator \u2014 Calculate EMI, Affordability, Tenure &#038; Interest Rate",
+      "date": "July 17, 2013",
+      "format": false,
+      "excerpt": "Introduction The multi-purpose loan calculator is a 4-in-1 calculator that aims to answer your questions such as: How much is the monthly payment - aka EMI - for my loan? How much money can I afford to borrow? How long will it take to repay my loan? How much interest\u2026",
+      "rel": "",
+      "context": "With 98 comments",
+      "img": { "alt_text": "", "src": "", "width": 0, "height": 0 },
+      "classes": []
+    },
+    {
+      "id": 515,
+      "url": "https://emicalculator.net/loan-affordability-calculator/",
+      "url_meta": { "origin": 7, "position": 3 },
+      "title": "Loan Affordability Calculator",
+      "date": "December 30, 2011",
+      "format": false,
+      "excerpt": "This calculator has moved here. Factors that influence the loan amount you can afford Factors that influence how much loan you can afford: Income: Your income plays a major role in deciding your loan amount. Usually 30 to 45% of your monthly gross income can be utilised for paying EMI,\u2026",
+      "rel": "",
+      "context": "With 2 comments",
+      "img": { "alt_text": "", "src": "", "width": 0, "height": 0 },
+      "classes": []
+    },
+    {
+      "id": 4102,
+      "url": "https://emicalculator.net/loan-emi-calculation-work/",
+      "url_meta": { "origin": 7, "position": 4 },
+      "title": "Loan EMI Calculation \u2014 How Does It Work?",
+      "date": "December 18, 2017",
+      "format": false,
+      "excerpt": "I have been paying EMI for 5 years but the principal outstanding has hardly changed. Why? This is one question that has puzzled many of us. The answer lies in understanding how loan calculations work.\u00a0Most loans are Reducing Balance loans (instead of flat interest rate loans). To understand the difference\u2026",
+      "rel": "",
+      "context": "In &quot;Articles&quot;",
+      "img": {
+        "alt_text": "",
+        "src": "https://i0.wp.com/emicalculator.net/wp-content/uploads/Yearly-Repayment-Schedule.png?resize=350%2C200&ssl=1",
+        "width": 350,
+        "height": 200
+      },
+      "classes": []
+    },
+    {
+      "id": 3288,
+      "url": "https://emicalculator.net/home-loan-emi-calculator/",
+      "url_meta": { "origin": 7, "position": 5 },
+      "title": "Home Loan EMI Calculator with Prepayments, Taxes &#038; Insurance",
+      "date": "October 22, 2015",
+      "format": false,
+      "excerpt": "How to Use Home Loan EMI Calculator? Using our Home Loan EMI Calculator, you can calculate how much monthly and total expenditure you really incur by purchasing a home using your bank home loan. Home Loan Details includes single premium loan insurance and processing fees. Home Value is the actual\u2026",
+      "rel": "",
+      "context": "With 219 comments",
+      "img": { "alt_text": "", "src": "", "width": 0, "height": 0 },
+      "classes": []
+    }
+  ],
+  "_links": {
+    "self": [{ "href": "https://emicalculator.net/wp-json/wp/v2/pages/7" }],
+    "collection": [{ "href": "https://emicalculator.net/wp-json/wp/v2/pages" }],
+    "about": [{ "href": "https://emicalculator.net/wp-json/wp/v2/types/page" }],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://emicalculator.net/wp-json/wp/v2/users/2"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://emicalculator.net/wp-json/wp/v2/comments?post=7"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 9,
+        "href": "https://emicalculator.net/wp-json/wp/v2/pages/7/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 6865,
+        "href": "https://emicalculator.net/wp-json/wp/v2/pages/7/revisions/6865"
+      }
+    ],
+    "wp:attachment": [
+      { "href": "https://emicalculator.net/wp-json/wp/v2/media?parent=7" }
+    ],
+    "curies": [
+      { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+    ]
+  }
+}
